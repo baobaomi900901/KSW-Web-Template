@@ -11,4 +11,3 @@ npm run watch
 ```bash
 npm run dev
 ```
-# KSW-Web-Template
