@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "YouSheBiaoTiHei";
+  src: url(../assets/YouSheBiaoTiHei.ttf);
+}
+
+#root {
+  --gray-0: #fafafa;
+  --highlight-1: #0042f6;
+  --highlight-2: #09feff;
+}
+
+body {
+  font-family: "YouSheBiaoTiHei", "" sans-serif;
+}
+
+.zh {
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+.KRPOMDemo-h1 {
+  @apply text-8xl bg-KRPOM-main-500;
+}
+
+/* "Titillium Web", */
